@@ -1,0 +1,21 @@
+{
+    "name": "aradiv/yii2-font-enlightened",
+    "description": "Yii2 Font Enlightened AssetBundle and helper class",
+	"keywords": ["font", "enlightened", "fontenlightened", "icon", "yii2"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Brüggemann",
+            "email": "develop@aradiv.de"
+        }
+    ],
+    "require": {
+		"aradiv/font-enlightened" : "^0.0.2",
+        "yiisoft/yii2" : "2.0.*"
+	},
+	"autoload": {
+        "psr-4": {
+            "aradiv\\fontenlightened\\": ""
+        }
+    }
+}
